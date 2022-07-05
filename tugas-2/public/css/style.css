@@ -1,0 +1,63 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  position: sticky;
+  top: 0;
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: white;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+header a {
+  text-decoration: none;
+}
+
+body {
+  min-height: 100vh;
+  background: url("../img/pattern.jpg");
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  padding: 20px;
+  background-color: white;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+section h1 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 2em;
+}
+
+#article-list article {
+  border-bottom: 1px solid black;
+  margin-top: 3em;
+}
+
+article a {
+  text-decoration: none;
+}
+
+footer {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: auto;
+}
